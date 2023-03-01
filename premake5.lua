@@ -22,7 +22,7 @@ project "FluxEngine"
 
 	includedirs
 	{
-
+		"%{prj.name}/vendor/spdlog/include",
 	}
 
 	filter "system:windows"
@@ -67,7 +67,8 @@ project "Sandbox"
 
 	includedirs
 	{
-		"Flux/src"
+		"FluxEngine/vendor/spdlog/include",
+		"FluxEngine/src"
 	}
 
 	links

@@ -1,0 +1,3 @@
+[submodule "FluxEngine/vendor/spdlog"]
+	path = FluxEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
