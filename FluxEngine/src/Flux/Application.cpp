@@ -1,5 +1,7 @@
 #include "Application.h"
 
+#include "Log.h"
+
 namespace Flux {
 
 	Application::Application()
@@ -11,6 +13,7 @@ namespace Flux {
 	}
 	void Application::Run()
 	{
+		FLUX_CORE_TRACE("FLUX Engine Running!");
 		while (true);
 	}
 }
